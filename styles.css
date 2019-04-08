@@ -74,16 +74,17 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #FF5733;
   color: black;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 60px;
   display: table;
   margin: 10px auto;
 }
+
 .location {
   background-color: #222;
   color: yellow;
@@ -95,11 +96,11 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 50px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #FF5733;
 }
 
 ul.skills {
@@ -108,7 +109,7 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 60px;
   display: inline-block;
   background: #ff9904;
   color: white;
@@ -117,7 +118,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #FF5733;
 }
 
 footer {
@@ -202,5 +203,23 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+
+  .wrapper{
+    height: 100px;
+    padding: 100px;
+    padding-top: 70px;
+    background: url('images/background.jpg') no-repeat top center ;
+  }
+
+  ul{
+    list-style-type:square;
+    margin: 30;
+    padding: 10;
+    line-height: 1.5;
+  }
+
+.logos{
+  padding:50px;
+}
 
 }
